@@ -4,7 +4,7 @@
 
 [TOC]
 ####效果图如下
-![Alt text](./RubbshView.gif)
+![Alt text](http://chuantu.biz/t5/92/1495531504x2728309609.gif)
 ####实现思路
 1. 先查分动画
 	+ 垃圾桶盖部分
