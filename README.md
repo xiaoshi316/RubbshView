@@ -4,7 +4,7 @@
 ![enter image description here](http://chuantu.biz/t5/92/1495531504x2728309609.gif)
 
 ####实现思路
-1. 先查分动画
+1. 先拆分分动画
 	+ 垃圾桶盖部分
 	+ 垃圾桶身体部分
 2. 分别使用Paint,Path画出相应内容
@@ -91,7 +91,7 @@
             canvas.drawLine(mWidth / 2 - (mBodyWith / 2) - 10, mHeight / 2 - (mBodyHeight / 2) - 10,
                     mWidth / 2 + (mBodyWith / 2) + 10, mHeight / 2 - (mBodyHeight / 2) - 10, mPaint);
 ```
-	+ 在画出矩形
+	+ 再画出矩形
 ```
 //2画出静止状态盖子上面的把手
             canvas.drawRect(mWidth / 2 - (mBodyWith / 9), mHeight / 2 - (mBodyHeight / 2) - 20, mWidth / 2 + (mBodyWith / 9),
