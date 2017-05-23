@@ -85,14 +85,12 @@
     }
 ```
 3. 画出静止垃圾桶盖
-	+ 先画出线条
+	+ 先画出线条再画出矩形
 ```
           //1画出禁止状态的垃圾桶盖子线条
             canvas.drawLine(mWidth / 2 - (mBodyWith / 2) - 10, mHeight / 2 - (mBodyHeight / 2) - 10,
                     mWidth / 2 + (mBodyWith / 2) + 10, mHeight / 2 - (mBodyHeight / 2) - 10, mPaint);
-```
-	+ 再画出矩形
-```
+
 //2画出静止状态盖子上面的把手
             canvas.drawRect(mWidth / 2 - (mBodyWith / 9), mHeight / 2 - (mBodyHeight / 2) - 20, mWidth / 2 + (mBodyWith / 9),
                     mHeight / 2 - (mBodyHeight / 2) - 10, mPaint);
